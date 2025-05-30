@@ -12,10 +12,15 @@
   --ttt-accent: #4caf50;
 }
 
+body,
+#root,
+html {
+  background-color: #ffffff !important;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--base-dark);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
